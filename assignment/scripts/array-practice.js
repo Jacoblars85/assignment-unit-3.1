@@ -71,6 +71,9 @@ console.log('Added an animal to end,', animalArray);
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
 //      array. (How can you be 100% certain this worked? 🤔)
 
+let dessert = 'Ice cream';
+favoriteFoods.push( dessert )
+console.log(favoriteFoods);
 
 // Example: Add to the beginning of an array using the Array.unshift method.
 let animalToUnshift = 'walrus';
@@ -81,6 +84,8 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 //      an entree that you enjoy.
 //      Add the `entree` to the beginning of your `favoriteFoods` array.
 
+let entree = 'Nachos'; 
+favoriteFoods.unshift( entree );
 
 // Example: Remove the last animal by using the Array.pop method.
 let removedAnimal = animalArray.pop();
@@ -97,6 +102,10 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
 
+colors.pop()
+let lastColor = 'teal';
+console.log(colors);
+console.log(lastColor);
 
 // Example: Remove the first animal using the Array.shift method.
 removedAnimal = animalArray.shift();
@@ -107,7 +116,10 @@ console.log('The animals are now', animalArray);
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
 
-
+colors.shift()
+let firstColor = 'orange';
+console.log(firstColor);
+console.log(colors);
 
 
 // STRETCH GOALS:
@@ -116,6 +128,7 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 
 // 5.a (STRETCH) TODO: Replace the second gem with 'Tourmaline'.
 //      Remember to console.log the updated array.
+
 
 
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
